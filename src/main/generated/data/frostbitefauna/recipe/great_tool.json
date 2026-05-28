@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "frostbitefauna:great_tusk_fragment"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " RR",
+    " SR",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "frostbitefauna:great_tool"
+  }
+}

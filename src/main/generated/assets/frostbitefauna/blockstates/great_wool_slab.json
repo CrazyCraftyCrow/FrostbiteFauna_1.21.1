@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "frostbitefauna:block/great_wool_slab"
+    },
+    "type=double": {
+      "model": "frostbitefauna:block/great_wool"
+    },
+    "type=top": {
+      "model": "frostbitefauna:block/great_wool_slab_top"
+    }
+  }
+}

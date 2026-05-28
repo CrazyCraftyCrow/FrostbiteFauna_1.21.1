@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "frostbitefauna:block/great_wool",
+    "side": "frostbitefauna:block/great_wool",
+    "top": "frostbitefauna:block/great_wool"
+  }
+}

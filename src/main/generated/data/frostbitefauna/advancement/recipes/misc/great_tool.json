@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_great_tusk_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "frostbitefauna:great_tusk_fragment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "frostbitefauna:great_tool"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_great_tusk_fragment"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "frostbitefauna:great_tool"
+    ]
+  }
+}
