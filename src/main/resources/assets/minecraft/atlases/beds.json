@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "frostbitefauna:entity/bed/great_bed",
+      "sprite": "frostbitefauna:entity/bed/great_bed"
+    }
+  ]
+}

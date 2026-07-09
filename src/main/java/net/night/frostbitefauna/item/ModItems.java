@@ -6,6 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.night.frostbitefauna.FrostbiteFauna;
+import net.night.frostbitefauna.block.ModBlocks;
 import net.night.frostbitefauna.entity.ModEntities;
 import net.night.frostbitefauna.item.custom.GreatItem;
 

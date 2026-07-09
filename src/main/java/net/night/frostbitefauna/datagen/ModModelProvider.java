@@ -23,6 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         greatWoolPool.slab(ModBlocks.GREAT_WOOL_SLAB);
 
+        blockStateModelGenerator.registerBed(ModBlocks.GREAT_BED, ModBlocks.GREAT_BED);
+
     }
 
     @Override

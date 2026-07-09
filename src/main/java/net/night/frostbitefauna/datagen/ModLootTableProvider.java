@@ -17,6 +17,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.GREAT_WOOL);
         addDrop(ModBlocks.GREAT_WOOL_SLAB, slabDrops(ModBlocks.GREAT_WOOL_SLAB));
+        addDrop(ModBlocks.GREAT_BED);
     }
 
 

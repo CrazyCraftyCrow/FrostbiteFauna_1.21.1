@@ -3,12 +3,16 @@
 	"package": "net.night.frostbitefauna.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"BedBlockEntityRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"overwrites": {
 		"requireAnnotations": true
-	}
+	},
+	"client": [
+
+	]
 }
