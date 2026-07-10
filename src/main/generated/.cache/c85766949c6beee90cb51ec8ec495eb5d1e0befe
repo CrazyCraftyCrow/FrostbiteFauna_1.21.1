@@ -1,11 +1,11 @@
-// 1.21.1	2026-07-09T14:00:16.5900452	Frostbite Fauna/Model Definitions
+// 1.21.1	2026-07-10T14:11:08.5321375	Frostbite Fauna/Model Definitions
 c56b7b1c5607b84735d1905b044f9abcc70664a4 assets\frostbitefauna\blockstates\great_wool_slab.json
 c60c25b37044c95ed75c7f1ee5015e4624a92e38 assets\frostbitefauna\models\item\great_tool.json
-2b53665e892243e0b8c8ce58ccf464bc76d78793 assets\frostbitefauna\models\item\great_bed.json
 4cb7754b0219772b753db96de66d3458710b27ad assets\frostbitefauna\models\item\great_wool.json
 5c3da97c0cf656bd2315a380a2db2143785b5d09 assets\frostbitefauna\models\item\great_wool_slab.json
 c000f157fb138efda39bfdbee4ac9a0a4f3be077 assets\frostbitefauna\models\block\great_wool.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\frostbitefauna\models\item\great_spawn_egg.json
+3d29f9ec70368a604d47abca5976a0b72b61764e assets\frostbitefauna\models\item\decoy_dummy_spawn_item.json
 dd1ca3c76caabd2aeb3c0ecf3acc96a1a3c5b983 assets\frostbitefauna\models\block\great_wool_slab_top.json
 4a263ff113b365f5c6b8295690824d70dfd198b5 assets\frostbitefauna\blockstates\great_wool.json
 a943f8d4e801f1899bcaa124f35c262ad6897f1d assets\frostbitefauna\models\item\great_tusk_fragment.json

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:oak_planks"
+    },
+    "R": {
+      "item": "frostbitefauna:great_fur"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " R ",
+    "ROR",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "frostbitefauna:decoy_dummy_spawn_item"
+  }
+}

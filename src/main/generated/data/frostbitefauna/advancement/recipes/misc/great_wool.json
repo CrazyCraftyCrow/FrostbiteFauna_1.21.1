@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_great_fur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "frostbitefauna:great_fur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "frostbitefauna:great_wool"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_great_fur"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "frostbitefauna:great_wool"
+    ]
+  }
+}

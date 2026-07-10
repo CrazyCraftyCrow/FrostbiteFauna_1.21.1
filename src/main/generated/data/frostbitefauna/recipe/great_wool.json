@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "frostbitefauna:great_fur"
+    }
+  },
+  "pattern": [
+    " RR",
+    " RR",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "frostbitefauna:great_wool"
+  }
+}

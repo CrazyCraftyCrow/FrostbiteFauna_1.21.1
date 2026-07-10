@@ -7,6 +7,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.night.frostbitefauna.block.ModBlocks;
 import net.night.frostbitefauna.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -26,5 +27,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S',Items.STICK)
                 .criterion(hasItem(ModItems.GREAT_TUSK_FRAGMENT), conditionsFromItem(ModItems.GREAT_TUSK_FRAGMENT))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DECOY_DUMMY_SPAWN_ITEM)
+                .pattern(" R ")
+                .pattern("ROR")
+                .pattern(" S ")
+                .input('R',ModItems.GREAT_FUR)
+                .input('O',Items.OAK_PLANKS)
+                .input('S',Items.STICK)
+                .criterion(hasItem(ModItems.GREAT_FUR), conditionsFromItem(ModItems.GREAT_FUR))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GREAT_WOOL)
+                .pattern(" RR")
+                .pattern(" RR")
+                .pattern("   ")
+                .input('R',ModItems.GREAT_FUR)
+                .criterion(hasItem(ModItems.GREAT_FUR), conditionsFromItem(ModItems.GREAT_FUR))
+                .offerTo(exporter);
     }
+
 }

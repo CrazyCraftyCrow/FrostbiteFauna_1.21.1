@@ -1,3 +1,7 @@
-// 1.21.1	2026-07-09T14:00:16.5900452	Frostbite Fauna/Recipes
+// 1.21.1	2026-07-10T14:11:08.5321375	Frostbite Fauna/Recipes
 5605b167f61153951633c993f5e9d2892e424059 data\frostbitefauna\advancement\recipes\misc\great_tool.json
 fc967e7a2f46b4d9c082e1789eb7a2298e4acc7a data\frostbitefauna\recipe\great_tool.json
+256406019ac34cbe5a3e7bfdf6e4671104424a85 data\frostbitefauna\advancement\recipes\misc\decoy_dummy_spawn_item.json
+9cf27ea3401484ea85bd9648abaf91b5df16fee3 data\frostbitefauna\recipe\decoy_dummy_spawn_item.json
+ee79f02354a8af4b78df08701343396749864eac data\frostbitefauna\recipe\great_wool.json
+b21323d45713b2ca2daf7c2e5117dde1106265b6 data\frostbitefauna\advancement\recipes\misc\great_wool.json

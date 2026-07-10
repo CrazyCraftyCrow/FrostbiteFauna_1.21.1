@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.night.frostbitefauna.FrostbiteFauna;
 import net.night.frostbitefauna.block.ModBlocks;
 import net.night.frostbitefauna.entity.ModEntities;
+import net.night.frostbitefauna.item.custom.DecoyDummyItem;
 import net.night.frostbitefauna.item.custom.GreatItem;
 
 public class ModItems {
@@ -19,6 +20,12 @@ public class ModItems {
 
     public static final Item GREAT_SPAWN_EGG = registerItem("great_spawn_egg",
             new SpawnEggItem(ModEntities.THEGREATWANDERER, 0x9dc783,0xbfaf5f, new Item.Settings()));
+
+    public static final Item DECOY_DUMMY_SPAWN_ITEM = Registry.register(
+            Registries.ITEM,
+            Identifier.of("frostbitefauna", "decoy_dummy_spawn_item"),
+            new DecoyDummyItem(new Item.Settings().maxCount(1))
+    );
 
 
     private  static Item registerItem(String name, Item item) {
@@ -34,6 +41,7 @@ public class ModItems {
             entries.add(GREAT_FUR);
             entries.add(GREAT_TOOL);
             entries.add(GREAT_SPAWN_EGG);
+            entries.add(DECOY_DUMMY_SPAWN_ITEM);
         });
     }
 }

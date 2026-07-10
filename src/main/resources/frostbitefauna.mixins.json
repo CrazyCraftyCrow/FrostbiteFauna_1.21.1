@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"BedBlockEntityRendererMixin"
+		"ActiveTargetGoalMixin",
+		"TrackTargetGoalAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1
