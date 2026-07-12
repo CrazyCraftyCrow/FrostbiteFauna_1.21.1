@@ -22,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool greatWoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GREAT_WOOL);
 
         greatWoolPool.slab(ModBlocks.GREAT_WOOL_SLAB);
+
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.ICE_GRASS, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override
@@ -30,6 +32,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GREAT_FUR, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREAT_TOOL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREAT_SPAWN_EGG,
+                new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+        itemModelGenerator.register(ModItems.FROZEN_SPAWN_EGG,
                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
         itemModelGenerator.register(ModItems.DECOY_DUMMY_SPAWN_ITEM, Models.GENERATED);
 

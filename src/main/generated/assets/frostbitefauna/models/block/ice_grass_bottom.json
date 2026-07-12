@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "frostbitefauna:block/ice_grass_bottom"
+  }
+}

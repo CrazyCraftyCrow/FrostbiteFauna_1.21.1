@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.night.frostbitefauna.block.ModBlocks;
 import net.night.frostbitefauna.entity.ModEntities;
 import net.night.frostbitefauna.entity.custom.DecoyDummyEntity;
+import net.night.frostbitefauna.entity.custom.FrozenZombieEntity;
 import net.night.frostbitefauna.entity.custom.GreatEntity;
 import net.night.frostbitefauna.item.ModItems;
 import org.slf4j.Logger;
@@ -24,5 +25,6 @@ public class FrostbiteFauna implements ModInitializer {
 		ModEntities.registerModEntities();
 		FabricDefaultAttributeRegistry.register(ModEntities.THEGREATWANDERER, GreatEntity.createAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.DECOYDUMMY, DecoyDummyEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.FROZEN_ZOMBIE, FrozenZombieEntity.createFrozenZombieAttributes());
 	}
 }

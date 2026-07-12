@@ -5,7 +5,8 @@
 	"mixins": [
 		"ExampleMixin",
 		"ActiveTargetGoalMixin",
-		"TrackTargetGoalAccessor"
+		"TrackTargetGoalAccessor",
+		"SnowballEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

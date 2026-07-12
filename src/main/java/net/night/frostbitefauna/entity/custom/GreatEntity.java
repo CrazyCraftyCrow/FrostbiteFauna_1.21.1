@@ -161,16 +161,13 @@ public class GreatEntity extends AnimalEntity {
     protected void dropLoot(DamageSource damageSource, boolean causedByPlayer) {
         super.dropLoot(damageSource, causedByPlayer);
 
-        // Ensure this only runs on the server side to prevent client-side ghost item drops
         if (!this.getWorld().isClient()) {
 
-            // 1. Handle Oak Planks (0 to 1)
             int plankCount = this.random.nextBetween(0, 1);
             if (plankCount > 0) {
                 this.dropItem(ModItems.GREAT_TUSK_FRAGMENT, plankCount);
             }
 
-            // 2. Handle White Wool (2 to 3)
             int woolCount = this.random.nextBetween(2, 3);
             this.dropItem(ModItems.GREAT_FUR, woolCount);
         }

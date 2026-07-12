@@ -1,11 +1,16 @@
 {
   "item.frostbitefauna.great_tusk_fragment": "Great Tusk Fragment",
   "item.frostbitefauna.great_fur": "Great Fur",
-  "item.frostbitefauna.great_spawn_egg": "The Great Wanderer Spawn Egg",
   "item.frostbitefauna.great_tool": "Great Tool",
 
-  "block.frostbitefauna.great_wool": "Great Wool BLOCK",
-  "block.frostbitefauna.great_wool_slab": "Great Wool",
+  "item.frostbitefauna.decoy_dummy_spawn_item": "Decoy Dummy",
 
-  "entity.frostbitefauna.the_great_wanderer": "The Great Wanderer"
+  "item.frostbitefauna.great_spawn_egg": "The Great Wanderer Spawn Egg",
+  "item.frostbitefauna.frozen_spawn_egg": "Frozen Zombie Spawn Egg",
+
+  "block.frostbitefauna.great_wool": "Great Wool",
+  "block.frostbitefauna.great_wool_slab": "Great Wool Slab",
+
+  "entity.frostbitefauna.thegreatwanderer": "The Great Wanderer",
+  "entity.frostbitefauna.frozen_zombie": "Frozen Zombie"
 }

@@ -6,7 +6,6 @@ import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.MathHelper;
 import net.night.frostbitefauna.FrostbiteFauna;
 import net.night.frostbitefauna.entity.custom.GreatEntity;
 

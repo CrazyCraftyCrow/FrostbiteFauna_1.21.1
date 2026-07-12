@@ -21,6 +21,9 @@ public class ModItems {
     public static final Item GREAT_SPAWN_EGG = registerItem("great_spawn_egg",
             new SpawnEggItem(ModEntities.THEGREATWANDERER, 0x9dc783,0xbfaf5f, new Item.Settings()));
 
+    public static final Item FROZEN_SPAWN_EGG = registerItem("frozen_spawn_egg",
+            new SpawnEggItem(ModEntities.FROZEN_ZOMBIE, 0x9dc783,0xbfaf5f, new Item.Settings()));
+
     public static final Item DECOY_DUMMY_SPAWN_ITEM = Registry.register(
             Registries.ITEM,
             Identifier.of("frostbitefauna", "decoy_dummy_spawn_item"),
@@ -42,6 +45,7 @@ public class ModItems {
             entries.add(GREAT_TOOL);
             entries.add(GREAT_SPAWN_EGG);
             entries.add(DECOY_DUMMY_SPAWN_ITEM);
+            entries.add(FROZEN_SPAWN_EGG);
         });
     }
 }

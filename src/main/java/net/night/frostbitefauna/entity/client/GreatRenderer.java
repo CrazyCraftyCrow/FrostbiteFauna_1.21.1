@@ -14,11 +14,6 @@ public class GreatRenderer extends MobEntityRenderer<GreatEntity, GreatModel<Gre
         super(context, new GreatModel<>(context.getPart(GreatModel.THEGREATWANDERER)), 0.75f);
     }
 
-    /*@Override
-    public Identifier getTexture(GreatEntity entity) {
-        return Identifier.of(FrostbiteFauna.MOD_ID, "textures/entity/thegreatwanderer/thegreatwanderer.png");
-    }*/
-
     @Override
     public Identifier getTexture(GreatEntity entity) {
         if (entity.isSheared()) {
